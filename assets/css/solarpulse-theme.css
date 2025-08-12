@@ -3,6 +3,7 @@
 /* Override header colors for SolarPulse page */
 .solarpulse-page .header {
     background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
+    box-shadow: 0 4px 12px rgba(255, 153, 51, 0.15);
 }
 
 /* Override hero colors for SolarPulse page */

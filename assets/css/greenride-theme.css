@@ -3,6 +3,7 @@
 /* Override header colors for GreenRide page */
 .greenride-page .header {
     background: linear-gradient(135deg, #4CAF50 0%, #FF9800 100%);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
 }
 
 /* Override hero colors for GreenRide page */

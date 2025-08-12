@@ -17,12 +17,12 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
+/* Header - Acceleronix Brand Colors */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #214099 0%, #00aeef 100%);
     color: white;
     padding: 1rem 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(33, 64, 153, 0.15);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -61,12 +61,12 @@ body {
 }
 
 .nav a:hover {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0, 174, 239, 0.2);
 }
 
-/* Hero Section */
+/* Hero Section - Acceleronix Brand Colors */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #214099 0%, #a03694 100%);
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -144,7 +144,7 @@ body {
 .case-card {
     background: white;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(33, 64, 153, 0.15);
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -152,7 +152,7 @@ body {
 
 .case-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 174, 239, 0.25);
 }
 
 .case-card.coming-soon {
@@ -172,15 +172,15 @@ body {
 }
 
 .case-card:nth-child(1) .case-image {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #214099 0%, #42248a 100%);
 }
 
 .case-card:nth-child(2) .case-image {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #27ae60 0%, #f39c12 100%);
 }
 
 .case-card:nth-child(3) .case-image {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #f39c12 0%, #27ae60 100%);
 }
 
 .case-icon {
@@ -259,7 +259,7 @@ body {
 }
 
 .case-card:hover .case-cta {
-    color: #5a67d8;
+    color: #214099;
 }
 
 /* About Section */
@@ -306,7 +306,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #333;
+    background: linear-gradient(135deg, #42248a 0%, #214099 100%);
     color: white;
     padding: 3rem 0;
 }
@@ -323,7 +323,7 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #667eea;
+    color: #00aeef;
 }
 
 .footer-info p,
@@ -345,7 +345,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #667eea;
+    color: #00aeef;
 }
 
 /* Responsive Design */
