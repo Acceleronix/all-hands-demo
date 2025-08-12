@@ -12,19 +12,26 @@ This is a training assessment platform for Acceleronix's Bangkok All Hands meeti
 - `index.html` - Homepage with case study overview and navigation
 - `assets/css/home.css` - Homepage-specific styling
 - `assets/css/styles.css` - Shared styling for case study pages
+- `assets/css/greenride-theme.css` - Green/gold theme for GreenRide Vietnam case
+- `assets/css/solarpulse-theme.css` - Green/orange theme for SolarPulse India case
+- `assets/images/` - Banner images for case studies (Cold-Chain.jpg, two_wheeler.jpg, powerstation.png)
 - `cases/` directory containing individual case study pages
 
 **Assessment Cases:**
 1. **AccelTech** - Cold chain logistics tracking in Malaysia (Case A)
-2. **MotoTrack** - Two wheeler fleet management in Vietnam (Case B)  
-3. **PowerFlow** - Mobile energy storage solutions in India (Case C)
+2. **GreenRide Vietnam** - Smart e-bike IoT solutions in Vietnam (Case B)  
+3. **SolarPulse India** - Mobile solar energy storage solutions in India (Case C)
 
 **Design System:**
-- Color scheme: Purple gradient (#667eea to #764ba2) with neutral backgrounds
+- Base color scheme: Purple gradient (#667eea to #764ba2) with neutral backgrounds
+- Case-specific themes:
+  - **AccelTech**: Purple/blue gradient (maintains base theme)
+  - **GreenRide Vietnam**: Green/gold gradient (#4CAF50 to #FF9800) - environmental theme
+  - **SolarPulse India**: Orange/green gradient (#FF9933 to #138808) - India flag colors
 - Typography: Inter font family with consistent weight hierarchy
 - Layout: CSS Grid for card layouts, Flexbox for navigation and stats
 - Responsive: Mobile-first approach with breakpoints at 768px and 480px
-- Interactive elements: Hover effects, smooth scrolling, click handlers
+- Interactive elements: Hover effects, smooth scrolling, click handlers, hero banner images
 
 ## Development Commands
 
@@ -81,7 +88,39 @@ Each assessment case follows the same template with sections:
 
 ## File Structure Notes
 
-- CSS files are separated by purpose (home vs case pages)
-- All case study pages share the same CSS file for consistency
-- Images/icons use emoji for simplicity (no external assets)
-- Vercel.json provides deployment configuration and routing
+- CSS files are separated by purpose (home vs case pages vs themes)
+- Base `styles.css` provides consistent foundation across all case pages
+- Theme-specific CSS files override colors and styling for branding alignment
+- Hero banner images stored in `assets/images/` for visual impact
+- Vercel.json provides deployment configuration and routing (fixed for modern Vercel)
+
+## Case Study Details
+
+**Case A - AccelTech (Malaysia):**
+- Cold chain logistics and tracking solution
+- NB-IoT connectivity focus
+- Quectel module information hidden for assessment purposes
+- Features: Temperature monitoring, trajectory playback, OTA updates
+- Assessment: IoT platform architecture, connectivity optimization, fleet management
+
+**Case B - GreenRide Vietnam:**
+- Smart electric bike with IoT integration
+- Founded 2019, supporting Vietnam's Green City initiative
+- Products: Smart e-Bike 500X (120km range, 40km/h, 7" touchscreen)
+- Pricing: 60M VND base ($2,400), 250k VND/month subscription ($10)
+- Features: WiFi/BLE connectivity, OTA updates, anti-theft, charging network
+- Assessment: Sustainable mobility IoT, battery management, market expansion
+
+**Case C - SolarPulse India:**
+- Mobile solar energy storage solutions
+- Founded 2020 Bangalore, supporting National Solar Mission 2030
+- Products: PowerHub 1-5kWh capacity, LFP battery, 2000+ cycles
+- Pricing: INR 45,000 base ($570), INR 500/month subscription ($6)
+- Features: Solar optimization, grid feed-in control, WiFi/BLE app integration
+- Assessment: Solar IoT architecture, climate adaptation, subscription services
+
+## Security Notes
+
+- AccelTech case has sanitized technical specifications (no specific module details)
+- All cases use realistic but non-sensitive company and pricing information
+- Assessment questions focus on platform capabilities rather than proprietary solutions

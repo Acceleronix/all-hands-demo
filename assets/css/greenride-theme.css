@@ -1,0 +1,99 @@
+/* GreenRide Vietnam Theme Override - Green and Gold */
+
+/* Override header colors for GreenRide page */
+.greenride-page .header {
+    background: linear-gradient(135deg, #4CAF50 0%, #FF9800 100%);
+}
+
+/* Override hero colors for GreenRide page */
+.greenride-page .hero {
+    background: linear-gradient(135deg, #4CAF50 0%, #FF9800 100%);
+}
+
+/* Override back-to-home button for GreenRide page */
+.greenride-page .back-to-home:hover {
+    background: rgba(255, 152, 0, 0.3);
+}
+
+/* Override navigation links for GreenRide page */
+.greenride-page .nav a:hover {
+    background-color: rgba(255, 152, 0, 0.2);
+}
+
+/* Feature cards accent colors */
+.greenride-page .feature-card:hover {
+    border-left: 4px solid #4CAF50;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Specification cards accent */
+.greenride-page .spec-card {
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.greenride-page .spec-card:hover {
+    border-color: #4CAF50;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
+}
+
+/* Challenge cards with green theme */
+.greenride-page .challenge-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.15);
+}
+
+/* Button and link accents */
+.greenride-page a[href="../index.html"]:hover {
+    background: rgba(255, 152, 0, 0.9) !important;
+    color: white !important;
+}
+
+/* Stats highlighting */
+.greenride-page .stat-number {
+    color: #FFD700;
+}
+
+/* Section headers with green accent */
+.greenride-page .section-header h3 {
+    position: relative;
+}
+
+.greenride-page .section-header h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #4CAF50 0%, #FF9800 100%);
+}
+
+/* Footer theme for GreenRide */
+.greenride-page .footer {
+    background: linear-gradient(135deg, #2E7D32 0%, #E65100 100%);
+}
+
+/* Fix specification values alignment */
+.greenride-page .spec-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.greenride-page .spec-label {
+    flex: 0 0 auto;
+    font-weight: 500;
+    color: #555;
+}
+
+.greenride-page .spec-value {
+    flex: 1;
+    text-align: right;
+    font-weight: 600;
+    color: #4CAF50;
+    margin-left: 1rem;
+}

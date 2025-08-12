@@ -1,0 +1,124 @@
+/* SolarPulse India Theme - Green and Orange (India Flag Colors) */
+
+/* Override header colors for SolarPulse page */
+.solarpulse-page .header {
+    background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
+}
+
+/* Override hero colors for SolarPulse page */
+.solarpulse-page .hero {
+    background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
+}
+
+/* Override back-to-home button for SolarPulse page */
+.solarpulse-page .back-to-home:hover {
+    background: rgba(255, 153, 51, 0.3);
+}
+
+/* Override navigation links for SolarPulse page */
+.solarpulse-page .nav a:hover {
+    background-color: rgba(255, 153, 51, 0.2);
+}
+
+/* Feature cards accent colors */
+.solarpulse-page .feature-card:hover {
+    border-left: 4px solid #FF9933;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Specification cards accent */
+.solarpulse-page .spec-card {
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.solarpulse-page .spec-card:hover {
+    border-color: #FF9933;
+    box-shadow: 0 4px 12px rgba(255, 153, 51, 0.15);
+}
+
+/* Fix specification values alignment for SolarPulse */
+.solarpulse-page .spec-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.solarpulse-page .spec-label {
+    flex: 0 0 auto;
+    font-weight: 500;
+    color: #555;
+}
+
+.solarpulse-page .spec-value {
+    flex: 1;
+    text-align: right;
+    font-weight: 600;
+    color: #FF9933;
+    margin-left: 1rem;
+}
+
+/* Challenge cards with orange theme */
+.solarpulse-page .challenge-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 153, 51, 0.15);
+}
+
+/* Button and link accents */
+.solarpulse-page a[href="../index.html"]:hover {
+    background: rgba(255, 153, 51, 0.9) !important;
+    color: white !important;
+}
+
+/* Stats highlighting */
+.solarpulse-page .stat-number {
+    color: #FFD700;
+}
+
+/* Section headers with orange accent */
+.solarpulse-page .section-header h3 {
+    position: relative;
+}
+
+.solarpulse-page .section-header h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
+}
+
+/* Footer theme for SolarPulse */
+.solarpulse-page .footer {
+    background: linear-gradient(135deg, #E6731A 0%, #0F6B06 100%);
+}
+
+/* Assessment section with India theme */
+.solarpulse-assessment {
+    background: linear-gradient(135deg, #FF9933 0%, #138808 100%) !important;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+.solarpulse-assessment h3 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.solarpulse-assessment .assessment-container {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.solarpulse-assessment .task-item {
+    background: rgba(255,255,255,0.05);
+    border-left: 4px solid #FFD700;
+}
+
+.solarpulse-assessment .return-button {
+    background: white;
+    color: #FF9933;
+}
