@@ -2,8 +2,9 @@
 
 /* Override header colors for GreenRide page */
 .greenride-page .header {
-    background: linear-gradient(135deg, #4CAF50 0%, #FF9800 100%);
-    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
+    background: white;
+    color: #214099;
+    box-shadow: 0 2px 20px rgba(33, 64, 153, 0.08);
 }
 
 /* Override hero colors for GreenRide page */
@@ -12,13 +13,26 @@
 }
 
 /* Override back-to-home button for GreenRide page */
+.greenride-page .back-to-home {
+    color: #214099;
+    background: rgba(33, 64, 153, 0.08);
+    border: 1px solid rgba(33, 64, 153, 0.15);
+}
+
 .greenride-page .back-to-home:hover {
-    background: rgba(255, 152, 0, 0.3);
+    background: #214099;
+    color: white;
+    border-color: #214099;
 }
 
 /* Override navigation links for GreenRide page */
+.greenride-page .nav a {
+    color: #214099;
+}
+
 .greenride-page .nav a:hover {
-    background-color: rgba(255, 152, 0, 0.2);
+    background-color: rgba(0, 174, 239, 0.1);
+    color: #00aeef;
 }
 
 /* Feature cards accent colors */

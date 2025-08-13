@@ -2,8 +2,9 @@
 
 /* Override header colors for SolarPulse page */
 .solarpulse-page .header {
-    background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
-    box-shadow: 0 4px 12px rgba(255, 153, 51, 0.15);
+    background: white;
+    color: #214099;
+    box-shadow: 0 2px 20px rgba(33, 64, 153, 0.08);
 }
 
 /* Override hero colors for SolarPulse page */
@@ -12,13 +13,26 @@
 }
 
 /* Override back-to-home button for SolarPulse page */
+.solarpulse-page .back-to-home {
+    color: #214099;
+    background: rgba(33, 64, 153, 0.08);
+    border: 1px solid rgba(33, 64, 153, 0.15);
+}
+
 .solarpulse-page .back-to-home:hover {
-    background: rgba(255, 153, 51, 0.3);
+    background: #214099;
+    color: white;
+    border-color: #214099;
 }
 
 /* Override navigation links for SolarPulse page */
+.solarpulse-page .nav a {
+    color: #214099;
+}
+
 .solarpulse-page .nav a:hover {
-    background-color: rgba(255, 153, 51, 0.2);
+    background-color: rgba(0, 174, 239, 0.1);
+    color: #00aeef;
 }
 
 /* Feature cards accent colors */
