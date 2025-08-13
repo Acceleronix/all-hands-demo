@@ -312,9 +312,11 @@ body {
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minItems(250px, 1fr));
-    gap: 2rem;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 3rem;
+    align-items: start;
+    width: 100%;
 }
 
 .footer-info h4,
@@ -329,7 +331,15 @@ body {
 .footer-info p,
 .footer-contact p {
     color: #ccc;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+.footer-info,
+.footer-contact,
+.footer-links {
+    flex: 1;
+    min-width: 0;
 }
 
 .footer-links {
@@ -340,8 +350,9 @@ body {
 .footer-links a {
     color: #ccc;
     text-decoration: none;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     transition: color 0.3s ease;
+    padding: 0.3rem 0;
 }
 
 .footer-links a:hover {
@@ -349,7 +360,13 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) and (min-width: 769px) {
+    .footer-content {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
     .header .container {
         flex-direction: column;
         gap: 1rem;
@@ -385,7 +402,7 @@ body {
     }
     
     .footer-content {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         text-align: center;
     }
 }
