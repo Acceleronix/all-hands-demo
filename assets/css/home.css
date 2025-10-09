@@ -281,6 +281,28 @@ body {
     color: #214099;
 }
 
+/* Case teams label */
+.case-teams {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #495057;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+}
+
+.teams-label {
+    font-weight: 600;
+    color: #334155;
+}
+
+.teams-names {
+    font-weight: 500;
+}
+
 /* About Section */
 .about {
     padding: 5rem 0;
