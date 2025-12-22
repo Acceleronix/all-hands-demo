@@ -1,28 +1,40 @@
-# Acceleronix All Hands - APAC Training Assessment
+# Acceleronix All Hands - EMEA Training Assessment
 
-A training assessment platform for Acceleronix's Bangkok All Hands meeting (August 2025). Features three customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
+A training assessment platform for Acceleronix's EMEA All Hands meeting (Belgrade, October 2025). Features six customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
 
 ## 🌟 Features
 
 - **Training Assessment Portal**: Professional interface for customer case evaluations
-- **Three Assessment Scenarios**: Real-world customer challenges across different industries
+- **Six Assessment Scenarios**: Real-world customer challenges across different industries
 - **Interactive Case Studies**: Detailed technical requirements and business contexts
+- **Hero Banners**: Visual case study presentations with product imagery
 - **Acceleronix Branding**: Consistent with company training materials
 
 ## 📁 Project Structure
 
 ```
-tracker_website/
+all-hands-demo/
 ├── index.html                 # Homepage with case study overview
 ├── assets/
 │   ├── css/
 │   │   ├── home.css          # Homepage styles
-│   │   └── styles.css        # Case study page styles
-│   └── js/                   # (Future JavaScript files)
+│   │   ├── styles.css        # Case study page styles
+│   │   ├── greenride-theme.css  # GreenRide theme
+│   │   └── solarpulse-theme.css # SolarPulse theme
+│   └── images/
+│       ├── Cold-Chain.jpg    # AccelTech banner
+│       ├── two_wheeler.jpg   # GreenRide banner
+│       ├── powerstation.png  # SolarPulse banner
+│       ├── smart_lighting.jpeg  # SmartGlow banner
+│       ├── heart_pump.png    # HeatFlow banner
+│       └── nitrogen-generator.jpeg  # NitroGen banner
 ├── cases/
-│   ├── acceltech.html        # AccelTech case study (complete)
-│   ├── smartlogistics.html   # SmartLogistics case study (coming soon)
-│   └── industrialtech.html   # IndustrialTech case study (coming soon)
+│   ├── acceltech.html        # Case A: Cold Chain Logistics
+│   ├── mototrack.html        # Case B: Smart e-Bike IoT
+│   ├── powerflow.html        # Case C: Solar Energy Storage
+│   ├── smartglow.html        # Case D: Smart Lighting
+│   ├── heatflow.html         # Case E: Heat Pump
+│   └── nitrogen.html         # Case F: Nitrogen Generation
 ├── vercel.json               # Vercel deployment configuration
 ├── CLAUDE.md                 # AI assistant guidance
 └── README.md                 # Project documentation
@@ -31,25 +43,52 @@ tracker_website/
 ## 🎯 Assessment Cases
 
 ### Case A: AccelTech - Cold Chain Logistics
-- **Location**: Malaysia
-- **Industry**: Cold Chain Logistics
-- **Focus**: NB-IoT connectivity, sensor integration, platform scalability
+- **Location**: 🇸🇪 Sweden
+- **Industry**: Cold Chain Logistics & Tracking
+- **Technology**: Cat.1 Connectivity
 - **Scale**: 5K EAU
-- **Assessment**: OTA management, connectivity optimization
+- **Focus**: Temperature monitoring, trajectory playback, OTA updates
+- **Assessment**: IoT platform architecture, connectivity optimization, fleet management
 
-### Case B: MotoTrack - Two Wheeler Fleet Management
-- **Location**: Vietnam
-- **Industry**: Ride-sharing & Delivery
-- **Focus**: Battery optimization, connectivity costs, anti-theft solutions
-- **Scale**: 25K+ fleet
-- **Assessment**: 2G/4G strategy, power management
+### Case B: GreenRide - Smart e-Bike IoT Solution
+- **Location**: 🇬🇧 UK
+- **Industry**: Smart Mobility & Green Transportation
+- **Technology**: Cat.1 Connectivity
+- **Scale**: 3K EAU
+- **Focus**: Anti-theft, battery management, sustainable mobility
+- **Assessment**: IoT architecture, OTA upgrades, GPS recovery, urban coverage
 
-### Case C: PowerFlow - Mobile Energy Storage
-- **Location**: India
-- **Industry**: Portable Power Solutions
-- **Focus**: Predictive maintenance, remote monitoring, business optimization
-- **Scale**: 2K+ units
-- **Assessment**: LTE-M connectivity, AI analytics
+### Case C: SolarPulse - Mobile Solar Energy Storage
+- **Location**: 🇩🇪 Germany
+- **Industry**: Solar Energy & Portable Power
+- **Technology**: WiFi/BLE Connectivity
+- **Scale**: 6K EAU
+- **Focus**: Solar optimization, grid feed-in control, app integration
+- **Assessment**: Climate adaptation, subscription services, market expansion
+
+### Case D: SmartGlow - Smart Lighting Solution
+- **Location**: 🇱🇻 Latvia
+- **Industry**: Smart Home - Intelligent Lighting
+- **Technology**: Quectel FC41D (WiFi+BLE)
+- **Scale**: 8K EAU
+- **Focus**: Multi-color control, voice assistants, scene management
+- **Assessment**: WiFi+BLE connectivity, smart home ecosystem integration, GDPR compliance
+
+### Case E: HeatFlow - Smart Heat Pump Solution
+- **Location**: 🇫🇷 France
+- **Industry**: Smart Energy - Heat Pump Systems
+- **Technology**: Quectel QCI001 4G DTU (EG810MEULA-I05-SNNSA)
+- **Scale**: 10K EAU
+- **Focus**: Predictive maintenance, voice control, government incentive alignment
+- **Assessment**: 4G LTE connectivity, AI-powered predictive maintenance, end-to-end business model
+
+### Case F: NitroGen - Industrial Nitrogen Generation
+- **Location**: 🇮🇹 Italy
+- **Industry**: Industrial Gas Production
+- **Technology**: Quectel EC200U-EU (4G LTE)
+- **Scale**: 12K EAU
+- **Focus**: Renewable energy integration, ESG reporting, digital factory transformation
+- **Assessment**: Industrial 4G LTE connectivity, sustainability tracking, remote facility management
 
 ## 🚀 Deployment
 
@@ -138,10 +177,10 @@ npx serve .
 ## 🎤 Training Context
 
 ### Event Details
-- **Event**: Acceleronix All Hands - APAC
-- **Location**: Bangkok, Thailand
-- **Date**: August 2025
-- **Duration**: 4-day training program
+- **Event**: Acceleronix All Hands - EMEA
+- **Location**: Belgrade, Serbia
+- **Date**: October 2025
+- **Duration**: 3-day training program
 
 ### Training Focus
 - **Acceleronix IoT Platform**: Device management, analytics, fleet tracking
@@ -150,10 +189,11 @@ npx serve .
 - **Business Value**: ROI calculation, competitive positioning
 
 ### Assessment Purpose
-- Test knowledge application from 4-day training
-- Evaluate BD and sales team readiness
-- Practice customer scenario solutions
+- Test knowledge application from 3-day training
+- Evaluate BD and sales team readiness across EMEA markets
+- Practice customer scenario solutions with regional context
 - Platform feature utilization assessment
+- Demonstrate understanding of diverse connectivity technologies (Cat.1, 4G LTE, WiFi/BLE)
 
 ## 📄 License
 
