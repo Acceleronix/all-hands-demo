@@ -1,6 +1,6 @@
-# Acceleronix All Hands - EMEA Training Assessment
+# Acceleronix Bootcamp
 
-A training assessment platform for Acceleronix's EMEA All Hands meeting (Belgrade, October 2025). Features six customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
+A training assessment platform for Acceleronix's Bootcamp. Features six customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
 
 ## 🌟 Features
 
