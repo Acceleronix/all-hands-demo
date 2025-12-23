@@ -208,7 +208,6 @@ This project is for demonstration purposes. All content is fictional and created
 5. Submit a pull request
 
 ## 📞 Support
-
 For questions or issues:
 - Create an issue in the GitHub repository
 - Check the browser console for any errors
