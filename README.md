@@ -1,14 +1,15 @@
 # Acceleronix Bootcamp
 
-A training assessment platform for Acceleronix's Bootcamp. Features six customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
+A training assessment platform for Acceleronix's Bootcamp. Features nine customer case studies designed to test BD and sales team knowledge of Acceleronix IoT and Connectivity platforms.
 
 ## 🌟 Features
 
 - **Training Assessment Portal**: Professional interface for customer case evaluations
-- **Six Assessment Scenarios**: Real-world customer challenges across different industries
+- **Nine Assessment Scenarios**: Real-world customer challenges across different industries
 - **Interactive Case Studies**: Detailed technical requirements and business contexts
 - **Hero Banners**: Visual case study presentations with product imagery
-- **Acceleronix Branding**: Consistent with company training materials
+- **Acceleronix Product Alignment**: Cases aligned with IoT SIM card and MFF2 chip offerings
+- **Consistent Branding**: Professional design with company training materials
 
 ## 📁 Project Structure
 
@@ -25,16 +26,24 @@ all-hands-demo/
 │       ├── Cold-Chain.jpg    # AccelTech banner
 │       ├── two_wheeler.jpg   # GreenRide banner
 │       ├── powerstation.png  # SolarPulse banner
-│       ├── smart_lighting.jpeg  # SmartGlow banner
-│       ├── heart_pump.png    # HeatFlow banner
-│       └── nitrogen-generator.jpeg  # NitroGen banner
+│       ├── smart_lighting.jpeg     # SmartGlow banner
+│       ├── heart_pump.png          # HeatFlow banner
+│       ├── nitrogen-generator.jpeg # NitroGen banner
+│       ├── medAeris_healthTech.png # MedAeris banner
+│       ├── euroDrive_telematics.png # EuroDrive banner
+│       └── anatolia_secureScan.png  # Anatolia banner
 ├── cases/
 │   ├── acceltech.html        # Case A: Cold Chain Logistics
 │   ├── mototrack.html        # Case B: Smart e-Bike IoT
 │   ├── powerflow.html        # Case C: Solar Energy Storage
 │   ├── smartglow.html        # Case D: Smart Lighting
 │   ├── heatflow.html         # Case E: Heat Pump
-│   └── nitrogen.html         # Case F: Nitrogen Generation
+│   ├── nitrogen.html         # Case F: Nitrogen Generation
+│   ├── medaeris.html         # Case G: Medical IoT Devices
+│   ├── eurodrive.html        # Case H: Vehicle Telematics
+│   └── anatolia.html         # Case I: Identity Verification
+├── customer-case-template-simple.md # Case submission template
+├── hero-banner-prompts.md    # AI image generation prompts
 ├── vercel.json               # Vercel deployment configuration
 ├── CLAUDE.md                 # AI assistant guidance
 └── README.md                 # Project documentation
@@ -89,6 +98,30 @@ all-hands-demo/
 - **Scale**: 12K EAU
 - **Focus**: Renewable energy integration, ESG reporting, digital factory transformation
 - **Assessment**: Industrial 4G LTE connectivity, sustainability tracking, remote facility management
+
+### Case G: MedAeris HealthTech - Connected Respiratory Care
+- **Location**: 🇩🇪 Germany (Munich)
+- **Industry**: Medical Technology - Respiratory Care
+- **Technology**: NB-IoT / Cat M with IoT MFF2 SIM chip
+- **Scale**: 15K EAU, 10-year lifecycle
+- **Focus**: Remote healthcare monitoring, predictive maintenance, medical device management
+- **Assessment**: Low-power connectivity, multi-country deployment, medical compliance (CE/FDA), SIM management
+
+### Case H: EuroDrive Telematics - MVNO Vehicle Telematics
+- **Location**: 🇪🇸 Spain (Barcelona)
+- **Industry**: Vehicle Telematics & MVNO Services
+- **Technology**: 4G LTE with Plastic SIM / MFF2 chip options
+- **Scale**: 50K+ vehicles across 45 European countries
+- **Focus**: Real-time fleet tracking, MVNO operations, multi-carrier deployment
+- **Assessment**: Large-scale SIM management, data plan optimization, telematics platform integration
+
+### Case I: Anatolia SecureScan - Smart Identity Verification
+- **Location**: 🇹🇷 Turkey (Istanbul)
+- **Industry**: Identity Verification & Access Control
+- **Technology**: 4G LTE with local compliant SIM
+- **Scale**: 5K+ terminals nationwide
+- **Focus**: ID scanning terminals, local regulatory compliance, distributed device management
+- **Assessment**: Local connectivity compliance (no permanent roaming), cost optimization, secure data transmission
 
 ## 🚀 Deployment
 
