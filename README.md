@@ -245,7 +245,6 @@ For questions or issues:
 - Create an issue in the GitHub repository
 - Check the browser console for any errors
 - Ensure all file paths are correct for deployment
-
 ---
 
 **Live Demo**: [Deploy to see live version]
