@@ -134,6 +134,31 @@ body {
     margin-bottom: 3rem;
 }
 
+.group-info {
+    text-align: center;
+    background: #f1f5ff;
+    border: 1px solid #dbe4ff;
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    margin: 0 auto 2.5rem;
+    max-width: 760px;
+    box-shadow: 0 6px 18px rgba(33, 64, 153, 0.08);
+}
+
+.group-info h4 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #1f2a44;
+    margin-bottom: 0.5rem;
+}
+
+.group-info p {
+    font-size: 1.05rem;
+    color: #2f3a52;
+    margin: 0.35rem 0;
+    font-weight: 500;
+}
+
 .section-header h3 {
     font-size: 2.5rem;
     font-weight: 600;
